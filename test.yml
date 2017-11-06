@@ -1,3 +1,4 @@
 ---
-name: test
-action: ls -l
+command: cat
+arguments:
+  - test.yml
