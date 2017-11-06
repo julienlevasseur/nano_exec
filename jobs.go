@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"log"
 	"strings"
-	"net/http"
 	"os/exec"
 	"io/ioutil"
 	"gopkg.in/yaml.v2"

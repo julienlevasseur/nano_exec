@@ -1,4 +1,5 @@
 # nano exec
+![Build Status](https://travis-ci.org/julienlevasseur/nano_exec.svg?branch=master)
 
 Nano Exec is a nano service which present an api allowing :
 
