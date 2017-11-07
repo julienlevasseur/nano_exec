@@ -33,10 +33,11 @@ func GetJobs() []string {
 	return file_list
 }
 
-func ExecuteJob() {
+func ExecuteJob(jobname string) {
 	job := Job{}
 
-	filename, f_err := ioutil.ReadFile(string(os.Args[1]))
+	//filename, f_err := ioutil.ReadFile(string(os.Args[1]))
+	filename, f_err := ioutil.ReadFile(jobname)
 	if f_err != nil {
 		log.Fatal("error: %v", f_err)
 	}
